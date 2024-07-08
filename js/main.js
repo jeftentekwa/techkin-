@@ -32,7 +32,7 @@
 
     // Team carousel
     $(".team-carousel").owlCarousel({
-        autoplay: true,
+        autoplay: false,
         smartSpeed: 1000,
         center: false,
         dots: false,
@@ -55,7 +55,7 @@
                 items:3
             }
         }
-    });
+    }); 
 
 
     // Testimonial carousel
